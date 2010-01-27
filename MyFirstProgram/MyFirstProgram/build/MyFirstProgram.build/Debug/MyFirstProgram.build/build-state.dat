@@ -1,0 +1,64 @@
+TMyFirstProgram
+v7
+r0
+t286126155.144199
+cCheck dependencies
+cCompileC build/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/main.o "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/MyFirstProgram" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/MyFirstProgram
+t1264433355
+s9224
+
+N/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/MyFirstProgram.LinkFileList
+c000000004B5D505800000000000000AB
+t1264406616
+s171
+
+N/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/main.o
+t1264433352
+s4016
+
+N/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c
+c000000004B5DB8C800000000000000D3
+t1264433352
+s211
+i<stio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies286126155#286126155#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/main.o "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s286126155.087755
+e286126155.088709
+r1
+xCompileC
+xbuild/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/main.o
+x/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c286126155#286126155#0(0"0(0#0#94"/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c4300885448#1957"    cd "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/MyFirstProgram-generated-files.hmap" "-I/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/MyFirstProgram-own-target-headers.hmap" "-I/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/MyFirstProgram-all-target-headers.hmap" -iquote "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/MyFirstProgram-project-headers.hmap" "-F/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug" "-I/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/include" "-I/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/DerivedSources/x86_64" "-I/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/DerivedSources" -c "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/main.c" -o "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/MyFirstProgram" normal x86_64
+s286126155.088763
+e286126155.144151
+r1
+xLd
+x/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/MyFirstProgram
+xnormal
+xx86_64
+lSLF07#2@119"Link /Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/MyFirstProgram286126155#286126155#0(0"0(0#0#0"4300885448#781"    cd "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug" "-F/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug" -filelist "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/MyFirstProgram.build/Debug/MyFirstProgram.build/Objects-normal/x86_64/MyFirstProgram.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/quinn/Documents/Xcode Projects/Masters of the Void/MyFirstProgram/MyFirstProgram/build/Debug/MyFirstProgram"0#
+
