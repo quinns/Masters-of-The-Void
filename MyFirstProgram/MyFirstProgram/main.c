@@ -1,6 +1,19 @@
 #include	<stdio.h> // Defines printf etc.
 #include	<stdbool.h>
 
+
+int getArgument(bool isLeft){
+	int vNum;
+	if (isLeft) {
+		printf("Enter left argument: ");
+	} else
+		printf("Enter right argument: ");
+	scanf("%d", &vNum);
+	fpurge(stdin);
+	return vNum;
+
+	}
+
 int main ()
 {
 
@@ -20,17 +33,16 @@ int main ()
 		fpurge(stdin);
 		
 		if (vOperation == '+') {
-			printf("Enter left argument: ");
-			scanf("%d", &vFirstArg);
-			fpurge(stdin);
+			vFirstArg = getArgument(true);
 			
-			printf("Enter right argument: ");
-			scanf("%d", &vSecondArg);
-			
-			fpurge(stdin);
+			vSecondArg = getArgument(false);
 			
 			printf("\n%d + %d = %d\n", vFirstArg, vSecondArg, vFirstArg + vSecondArg);
-		} else {
+		} else if (vOperation == '-') {
+			vFirstArg = getArgument(true);
+			vSecondArg = getArgument(false);
+			printf("\n%d - %d = %d\n", vFirstArg, vSecondArg, vFirstArg - vSecondArg);
+		}{
 			vFinished = true;
 		}
 
